@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Rooms In My House</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+      <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <form id="new-room-form" action="index.html" method="post">
+      <div id= "room-wrapper">
+
+        <div class="room-attr">
+          <label for="name" class="attr-label">Name</label>
+          <input type="text" id="name=" required/>
+        </div>
+
+        <div class="room-attr">
+          <label for="description" class="attr-label">Description</label>
+          <input type="text" id="description=" required/>
+        </div>
+
+        <div class="room-attr">
+          <label for="colour" class="attr-label">Colour</label>
+          <input type="text" id="colour" required/>
+        </div>
+
+        <div class="room-attr">
+          <label for="best-for" class="attr-label">Best for?</label>
+          <select id="best-for">
+            <option value="stroking-cats" selected>Stroking cats!</option>
+            <option value="sleeping">Sleeping</option>
+            <option value="watching-TV">Watching TV</option>
+            <option value="coding">Coding</option>
+            <option value="washing">Washing</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save">
+    </form>
+  </body>
+</html>
